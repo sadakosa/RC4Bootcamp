@@ -796,6 +796,44 @@ textarea.input {
 }
 
 /*=========================================================
+	MENTORS
+===========================================================*/
+
+.circles-container {
+  display: flex;
+}
+
+.circles-container .circle {
+  display: block;
+  position: relative;
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+}
+
+.circles-container .circle img.circle-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.circles-container .circle .circle-bg {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: black;
+  opacity: 0;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity;
+}
+
+.circles-container .circle .circle-bg:hover,
+.circles-container .circle .circle-bg:focus {
+  opacity: 0.3;
+
+
+/*=========================================================
 	CONTACT
 ===========================================================*/
 
