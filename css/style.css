@@ -812,28 +812,35 @@ textarea.input {
   background-color: #F9F9FA;
 }
 
+.mentor-name {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
 .circles-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
 }
 
 .circles-container .circle {
   display: block;
   position: relative;
-  margin: 10px;
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  margin: 20px;
 }
 
 .circles-container .circle img.circle-image {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
 }
 
 .circles-container .circle .circle-bg {
   position: absolute;
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   background-color: black;
   opacity: 0;
