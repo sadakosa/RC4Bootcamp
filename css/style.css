@@ -698,7 +698,7 @@ textarea.input {
 }
 
 .event:last-child:after {
-  height: 60px;
+  height: 50%;
 }
 
 .event+.event:before {
@@ -725,7 +725,8 @@ textarea.input {
 .event .event-hour {
   position: absolute;
   left: 62px;
-  top: 60px;
+  top: 50%;
+  margin-top: -15px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -764,7 +765,6 @@ textarea.input {
 
 .event .event-content {
   padding-left: 160px;
-  min-height: 120px;
 }
 
 .event .event-time {
